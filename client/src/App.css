@@ -1,0 +1,25 @@
+/* App.css */
+
+.app-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .content-container {
+    padding: 20px;
+  }
+  
+  /* Responsive styles */
+  @media screen and (max-width: 768px) {
+    .content-container {
+      padding: 10px;
+    }
+  }
+  
+  @media screen and (max-width: 576px) {
+    .app-container {
+      max-width: 100%;
+    }
+  }
+  
